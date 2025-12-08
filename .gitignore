@@ -1,1 +1,111 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
 
+# Environment variables
+.env
+.env.local
+.env.production
+.env.development
+*.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+.nuxt/
+.cache/
+
+# Testing
+coverage/
+.nyc_output/
+*.test.js.snap
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+.Spotlight-V100
+.Trashes
+
+# Database
+*.sql.backup
+*.db
+*.sqlite
+*.sqlite3
+
+# Private keys and certificates
+*.pem
+*.key
+*.cert
+*.csr
+private/
+secrets/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Uploads
+uploads/
+public/uploads/
+
+# Cloudflare
+.wrangler/
+wrangler.toml.local
+
+# Production
+.vercel
+.netlify
+
+# Backups
+backups/
+*.backup
+
+# Documentation (generated)
+docs/api/
+
+# Mac
+.AppleDouble
+.LSOverride
+
+# Windows
+desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+.Trash-*
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Sensitive data
+wallet.dat
+wallet.dat.backup
+private_keys.txt
+seed_phrases.txt
+
+# Local development
+.local/
+local.config.js
