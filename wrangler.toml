@@ -1,0 +1,11 @@
+name = "dogecoin-faucet-api"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+[env.production]
+workers_dev = false
+route = "api.tu-dominio.com/*"
+
+[[env.production.kv_namespaces]]
+binding = "FAUCET_DB"
+id = "tu_kv_namespace_id"
